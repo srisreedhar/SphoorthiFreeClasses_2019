@@ -1,0 +1,75 @@
+Files :: 
+
+
+Open the File
+
+			open() - > to open all the files
+			args - > 2
+					File_Path, Access_Mode
+			it creates a file object,
+			
+			File_object = open("File Location","AccessMode")
+
+
+
+			Access Modes / Permissions :
+
+			read - "r"
+			readBinary - "rb"
+			write - "w"
+			writeBinary - "wb"
+			update/append - "a"
+
+
+
+Read the File
+				File_object = open("File Location","AccessMode")
+				File_object -> fileContent as file Obj
+				file_object.read()
+				.read() -> method appld on fileObject
+
+				assign this to a variable to save data
+				data = File_object.read()
+
+				fh = open(FileName,AccessMode)
+				content= fh.read()
+
+Close the File
+
+				Closing the file
+				.close() on fileObject
+
+				File_object.close()
+
+
+				fh = open(FileName,accessMode)
+				data=fh.read()
+				fh.close()
+
+
+Writing into a file .
+
+	fh=open(FileName,AccessMode)
+	Data="to be written"
+	fh.write(data)
+	fh.close()
+
+
+
+Open weblink with all text
+extract emails 
+add them to a list
+and 
+write all the emails/list to a file and save it.
+
+
+
+
+
+
+
+
+
+
+
+
